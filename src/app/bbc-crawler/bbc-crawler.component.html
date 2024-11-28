@@ -1,0 +1,9 @@
+<div class="bbc-crawler">
+  <h1>BBC Web Crawler</h1>
+  <button (click)="crawlWebsite()">Crawl BBC</button>
+
+  <div *ngIf="title && description">
+    <h3>Title: {{ title }}</h3>
+    <p>Description: {{ description }}</p>
+  </div>
+</div>
