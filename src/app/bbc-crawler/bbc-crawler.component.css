@@ -5,10 +5,10 @@
   justify-content: center;
   min-height: 100vh;
   background-color: #b8bedd;
-  padding: 20px;
+  padding: 10px;
   font-family: Arial, sans-serif;
   width:40%;
-margin-left: 375px;
+margin-left:400px;
   border-radius: 30px;
 }
 
@@ -17,10 +17,9 @@ margin-left: 375px;
   font-size: 2.5rem;
   font-weight: bold;
   color: #333;
-
-  padding: 20px;
   border-radius: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+
 }
 
 button {
