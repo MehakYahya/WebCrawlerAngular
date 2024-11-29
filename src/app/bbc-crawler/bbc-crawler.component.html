@@ -1,9 +1,20 @@
-<div class="bbc-crawler">
-  <h1>BBC Web Crawler</h1>
-  <button (click)="crawlWebsite()">Crawl BBC</button>
+<div class="container">
+  <h1 class="heading">BBC Web Crawler</h1>
 
-  <div *ngIf="title && description">
-    <h3>Title: {{ title }}</h3>
-    <p>Description: {{ description }}</p>
+  <button (click)="crawlWebsite()">Fetch Data</button>
+
+  <div *ngIf="isLoading" class="loader">
+    <p>Loading...</p> <!-- Or you can add a spinner here -->
+  </div>
+
+  <div *ngIf="errorMessage">
+    <p class="error-message">{{ errorMessage }}</p>
+  </div>
+
+  <div *ngIf="titlesAndDescriptions.length > 0">
+    <div *ngFor="let item of titlesAndDescriptions" class="result-item">
+      <strong>Title:</strong> {{ item.title }}<br>
+      <strong>Description:</strong> {{ item.description }}
+    </div>
   </div>
 </div>
