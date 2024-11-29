@@ -1,20 +1,32 @@
-# Angular Calculator
+# 🕸️ Web Crawler: Fetch Titles and Descriptions from BBC.com
 
-## Description
-A simple calculator built using Angular, featuring a user-friendly interface and supporting basic arithmetic operations.
+This repository includes two projects:
 
-## Features
-- UI Similarity
-- Pipes for formatting and processing
-- Separate service for calculation logic
-- Reactive Forms for handling user input
-- Clean event binding for interactions
+1. **Node.js Backend**: A backend service for web scraping titles and descriptions from **BBC.com**.
+2. **Angular Frontend**: A responsive interface to display the scraped data.
 
-## Languages used
-- **HTML**: For structuring the user interface.
+## 🚀 Features
+- **Scrapes article titles and descriptions from BBC.com**.
+- **Displays data dynamically using an Angular-based frontend**.
 
-- **CSS**: For styling and layout.
+## 🛠️ Technologies Used
 
-- **TypeScript**: Main language for application development.
+### Backend (Node.js)
+- **Node.js**: Backend runtime.
+- **Express.js**: For creating API endpoints.
+- **JSSoup**: For parsing static HTML.
+- **Axios**: For making HTTP requests.
+- **CORS**: To enable cross-origin communication.
 
-- **Angular**: Framework used for building the application.
+### Frontend (Angular)
+- **Angular 18**: Framework for building the frontend.
+- **TypeScript**: For clean and type-safe code.
+- **Bootstrap**: For responsive design.
+- **RxJS**: For handling reactive data streams.
+
+## 📂 Project Structure
+
+```plaintext
+/
+├── angular-frontend/   # Frontend application built with Angular
+└── node-backend/       # Backend service built with Node.js
