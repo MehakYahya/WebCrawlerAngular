@@ -13,8 +13,8 @@
 
   <div *ngIf="titlesAndDescriptions.length > 0">
     <div *ngFor="let item of titlesAndDescriptions" class="result-item">
-      <strong>Title:</strong> {{ item.title }}<br>
-      <strong>Description:</strong> {{ item.description }}
+      <strong>Title:</strong> <span class="title-content"> {{ item.title }} </span><br>
+      <strong>Description:</strong> <span class="title-content"> {{ item.description }}</span>
     </div>
   </div>
 </div>
