@@ -1,4 +1,4 @@
-# 🕸️ Web Crawler: Fetch Titles and Descriptions from BBC.com
+# Web Crawler: Fetch Titles and Descriptions from BBC.com
 
 This repository includes two projects:
 
