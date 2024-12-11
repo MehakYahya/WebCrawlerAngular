@@ -9,4 +9,4 @@ bootstrapApplication(AppComponent, {
     BbcScraperService  // Provide your scraper service
   ]
 })
-  .catch((err: unknown) => console.error(err));
+.catch((err: unknown) => { console.error(err); });
