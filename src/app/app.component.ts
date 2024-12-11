@@ -8,4 +8,8 @@ import { BbcCrawlerComponent } from './bbc-crawler/bbc-crawler.component';
   templateUrl: './app.component.html',
 
 })
-export class AppComponent {}
+export class AppComponent {
+  constructor() {
+
+  }
+}
