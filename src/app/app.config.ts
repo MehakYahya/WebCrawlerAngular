@@ -7,4 +7,3 @@ export const appConfig = {
   ],
 };
 
-export class AppSettings {}
