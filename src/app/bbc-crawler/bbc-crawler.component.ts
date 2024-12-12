@@ -13,7 +13,7 @@ import { NgIf, NgForOf } from '@angular/common';
 export class BbcCrawlerComponent {
   titlesAndDescriptions: { title: string, description: string, imageUrl: string }[] = [];
   errorMessage: string | null = null;
-  isLoading = false;  // Declare the isLoading variable
+  isLoading: boolean = false;
 
   constructor(private scraperService: BbcScraperService) {}
 

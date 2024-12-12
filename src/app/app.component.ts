@@ -9,7 +9,5 @@ import { BbcCrawlerComponent } from './bbc-crawler/bbc-crawler.component';
 
 })
 export class AppComponent {
-  constructor() {
 
-  }
 }

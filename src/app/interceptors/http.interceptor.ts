@@ -4,9 +4,8 @@ import { Observable } from 'rxjs';
 
 @Injectable()
 export class CustomHttpInterceptor implements HttpInterceptor {
-    intercept(req: HttpRequest<unknown>, next: HttpHandler): Observable<HttpEvent<any>> {
-
-      const clonedRequest = req.clone({
+  intercept(req: HttpRequest<unknown>, next: HttpHandler): Observable<HttpEvent<any>> {
+    const clonedRequest = req.clone({
       setHeaders: {
         'User-Agent': 'Mozilla/5.0 (compatible; MyCrawler/1.0)',
       },

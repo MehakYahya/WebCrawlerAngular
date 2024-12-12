@@ -3,13 +3,10 @@ import { provideHttpClient } from '@angular/common/http';  // To provide HttpCli
 import { AppComponent } from './app/app.component';  // Your main component
 import { BbcScraperService } from './app/bbc-scraper.service';  // Import your service
 
-  bootstrapApplication(AppComponent, {
-
-    providers: [
+bootstrapApplication(AppComponent, {
+  providers: [
     provideHttpClient(),  // Provide HttpClient in the standalone way
-    BbcScraperService,  // Provide your scraper service
+    BbcScraperService  // Provide your scraper service
   ]
 })
-.catch((err: any) => {
-  console.error('An error occurred during bootstrapping:', err);
-});
+  .catch((err: unknown) => console.error(err));

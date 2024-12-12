@@ -17,9 +17,8 @@
     "@angular/router": "^19.0.1",
     "axios": "^1.7.8",
     "cors": "^2.8.5",
-    "express": "^4.21.2",
-    "jssoup": "^0.0.15",
-    "path-to-regexp": "^0.1.12"
+    "express": "^4.21.1",
+    "jssoup": "^0.0.15"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^19.0.2"
